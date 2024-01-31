@@ -1,6 +1,7 @@
 package com.testing.piggybank.model;
 
 
+import com.testing.piggybank.account.AccountResponse;
 import jakarta.persistence.*;
 
 import java.math.BigDecimal;
@@ -49,5 +50,8 @@ public class Account {
     }
 
     public void setId(long accountId) {
+    }
+
+    public void setUserId(int i) {
     }
 }
